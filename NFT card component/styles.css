@@ -13,7 +13,7 @@ body {
 .container {
     border-radius:16px; 
     background-color:#15273F; 
-    height: 595px; 
+    max-height: 595px; 
     margin-left: auto;
     margin-right: auto;
     margin-top: 80px;
@@ -181,6 +181,7 @@ body {
     }
 
     .image-container img {
+        height: 280px;
         width: 280px; 
     }
 }
