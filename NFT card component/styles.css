@@ -1,0 +1,186 @@
+*, p {
+    align-items: center;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    margin: 0px;
+}
+
+body {
+    background-color: #0D1A2D;
+}
+
+.container {
+    border-radius:16px; 
+    background-color:#15273F; 
+    height: 595px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    padding-top: 22px; 
+    padding-right: 22px;
+    padding-bottom: 22px;
+    padding-left: 22px;
+    width: 350px;
+}
+
+.container .image-container { 
+    height: 330px; 
+    border-radius: 11px;
+    background: url("./images/image-equilibrium.jpg") no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: inline-block;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 345px;
+
+}
+
+.container .image-container:hover { 
+    background: url("./images/hover-image-equilibrium.png") no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 330px; 
+    width: 345px;
+}
+
+
+/* .image-container img {
+    height: 330px;
+    border-radius: 11px;
+    width: 330px; 
+}
+
+.image-container .hover-option{
+    display: none;
+}
+
+.image-container .hover-option:hover {
+    bottom: 340px; 
+    border-radius: 11px;
+    background-color: #0092A1; 
+    display: block;
+    position: relative; 
+    opacity: 0.7;
+} */
+.container .image-container img:hover { 
+    background-color: #0092A1;
+    opacity: 1;
+}
+/* main container */
+.container .bottom-container {
+    padding-left: 8px; 
+    padding-right: 8px;
+}
+
+.bottom-container h1 {
+    color:#ffffff;
+    font-family: 'Outfit', sans-serif; 
+    font-weight:600; 
+    padding-top: 30px; 
+    padding-bottom: 10px;
+}
+
+.bottom-container p {
+    color:#8BACDA;
+    font-weight:400; 
+    padding-top: 10px; 
+    padding-bottom: 20px;
+}
+
+.bottom-container .details {
+    align-items: center;
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.details .ethereum,
+.details .days {
+    align-items: center;
+    display: flex; 
+    flex-direction: row; 
+}
+
+.details .ethereum img,
+.details .days img {
+    bottom: 5px; 
+    position: relative;
+}
+
+.details .ethereum img {
+    height:18px;
+    width:11px;
+}
+
+.details .days img {
+    height:18px;
+    width:18px; 
+}
+
+.ethereum .amount,
+.days .amount {
+    font-weight:600; 
+    padding-left: 10px;
+}
+
+.ethereum .amount {
+    color:#00FFF7;
+}
+
+.days .amount {
+    color:#8BACD9;
+} 
+
+.bottom-container .horizontal-line {
+    border-bottom: 1px solid #8BACDA;
+}
+
+.bottom-container .creator-details {
+    align-items: center;
+    display:flex; 
+    flex-direction: row; 
+    padding-top: 22px;
+}
+
+.creator-details .creator-image {
+    border: 1px solid white; 
+    border-radius: 100%;
+    height: 30px;
+    width: 30px; 
+}
+
+.creator-details .creator-image img {
+    height: 30px;
+    width: 30px; 
+}
+
+.creator-details .creator {
+    display: flex;
+    flex-direction: row;
+}
+
+.creator-details .creator .des {
+    font-weight:400; 
+    color:#8BACD9; 
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.creator-details .creator .creator-name  {
+    color:#ffffff;
+    font-weight:400; 
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+
+/* MOBILE  */
+@media screen and (min-width: 300px) and (max-width: 760px){
+    .container {
+        width: 280px;
+    }
+
+    .image-container img {
+        width: 280px; 
+    }
+}
