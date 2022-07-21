@@ -5,9 +5,6 @@ Challenge 01
 
 ## Welcome! 👋 Thanks for checking out thing Challenge
 
-[Figma file link] 
-(https://www.figma.com/file/QENothATS9j7D0INV5bmun/%F0%9F%94%B4-NFT-preview-card-component-%F0%9F%94%B4?node-id=3%3A35)
-
 [Frontend Metor Link] 
 (https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U)
 
